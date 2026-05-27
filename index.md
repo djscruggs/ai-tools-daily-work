@@ -22,4 +22,6 @@ I've built a deeply integrated Claude Code environment that goes well beyond cha
 
 **Knowledge management in Obsidian.** I run Claude Code directly inside my Obsidian vault, where it maintains a structured wiki layer on top of raw notes: daily logs, meeting notes, research, and job search material. Claude ingests source files into synthesized wiki pages, cross-links related concepts, answers queries against the accumulated knowledge, and keeps an index and change log up to date. It functions as a second brain that grows and stays current without manual curation.
 
-The net effect: Claude reliably handles the mechanical and analytical overhead of software development — and knowledge work — while I stay focused on decisions and design.
+**Care and feeding.** This system isn't static. I spend 30–60 minutes a week tuning it — updating agent instructions when I hit edge cases, adding new skills, pruning what doesn't earn its keep, and incorporating practices from the broader community. The upfront investment is real, but the compounding return makes it worthwhile.
+
+The net effect: Claude handles the mechanical and analytical overhead while I stay focused on decisions and design. That division of labor only works because of what Kieran Klaassen calls the "human sandwich" — humans set the frame, AI executes, humans judge the output. The framing half requires genuine engineering judgment: pattern recognition built over 20 years of software development, sharpened by ongoing self-education. The system amplifies that judgment; it doesn't substitute for it.

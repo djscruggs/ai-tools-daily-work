@@ -7,6 +7,7 @@ I've built a deeply integrated Claude Code environment that goes well beyond cha
 **Context management.** For long sessions I use `/compact [instructions]` rather than bare `/compact` — the instructions tell Claude what to treat as load-bearing before it compresses (open questions, architectural decisions, constraints like "don't touch the auth module"). Without instructions, compaction is lossy and drops exactly the details that matter. This directly prevents goal drift across long sessions.
 
 **Effort and thinking settings.** Extended thinking is off by default (`alwaysThinkingEnabled: false`); effort level set to `medium`. I toggle thinking manually for hard reasoning tasks rather than paying the cost on every prompt.
+
 **Automated guardrails via hooks.** My Claude config runs shell hooks at key moments outside the LLM loop — reliable because the harness executes them, not Claude:
 
 - **Prettier** (PostToolUse on Edit/Write/MultiEdit for `.ts tsx js jsx json css md`) — auto-formats every file Claude touches
